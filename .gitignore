@@ -11,8 +11,6 @@ src/pivx
 src/pivxd
 src/pivx-cli
 src/pivx-tx
-src/test/test_pivx
-src/qt/test/test_pivx-qt
 
 # autoreconf
 Makefile.in
@@ -51,8 +49,6 @@ src/qt/*.moc
 src/qt/moc_*.cpp
 src/qt/forms/ui_*.h
 
-src/qt/test/moc*.cpp
-
 .deps
 .dirstamp
 .libs
@@ -88,11 +84,6 @@ pivx-qt
 PIVX-Qt.app
 background.tiff*
 
-# Unit-tests
-Makefile.test
-pivx-qt_test
-src/test/buildenv.py
-
 # Resources cpp
 qrc_*.cpp
 
@@ -114,8 +105,6 @@ coverage_percent.txt
 linux-coverage-build
 linux-build
 win32-build
-test/config.ini
-test/cache/*
 qa/pull-tester/run-bitcoind-for-test.sh
 qa/pull-tester/tests-config.sh
 qa/pull-tester/cache/*

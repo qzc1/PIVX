@@ -1020,69 +1020,6 @@ Ele será iniciado automaticamente assim que a carteira tiver confirmações suf
     </message>
 </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulário</translation>
-    </message>
-    <message>
-        <source>Transaction Details</source>
-        <translation>Detalhes da transação</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Aperte o Botão</translation>
-    </message>
-    <message>
-        <source>This will unlock your wallet fully, so that anyone with access to it can spend until the wallet is closed or locked again.</source>
-        <translation>Isso desbloqueará sua carteira totalmente para que qualquer pessoa que tenha acesso a ela e possa gastar até que a carteira seja fechada ou bloqueada novamente.</translation>
-    </message>
-    <message>
-        <source>5000</source>
-        <translation>5000</translation>
-    </message>
-    <message>
-        <source>100</source>
-        <translation>100</translation>
-    </message>
-    <message>
-        <source>10</source>
-        <translation>10</translation>
-    </message>
-    <message>
-        <source>1000</source>
-        <translation>1000</translation>
-    </message>
-    <message>
-        <source>50</source>
-        <translation>50</translation>
-    </message>
-    <message>
-        <source>500</source>
-        <translation>500</translation>
-    </message>
-    <message>
-        <source>5</source>
-        <translation>5</translation>
-    </message>
-    <message>
-        <source>1</source>
-        <translation>1</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>Selecionar Todos</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>Cancelar </translation>
-    </message>
-    <message>
-        <source>SAVE</source>
-        <translation>SALVAR</translation>
-    </message>
-</context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -1165,49 +1102,6 @@ Ele será iniciado automaticamente assim que a carteira tiver confirmações suf
     <message>
         <source>Cannot create data directory here.</source>
         <translation>Não é possível criar informação de diretório aqui.</translation>
-    </message>
-</context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulário</translation>
-    </message>
-    <message>
-        <source>GOVERNANCE</source>
-        <translation>GOVERNANÇA</translation>
-    </message>
-    <message>
-        <source>Update Proposals</source>
-        <translation>Atualizar propostas</translation>
-    </message>
-    <message>
-        <source>Next super block:</source>
-        <translation>Próximo super bloco:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Blocks to next super block:</source>
-        <translation>Blocos para o próximo super bloco:</translation>
-    </message>
-    <message>
-        <source>Days to budget payout (estimate):</source>
-        <translation>Dias para o orçamento de pagamento (estimativa):</translation>
-    </message>
-    <message>
-        <source>Allotted budget:</source>
-        <translation>Orçamento alocado:</translation>
-    </message>
-    <message>
-        <source>Budget left:</source>
-        <translation>Orçamento restante:</translation>
-    </message>
-    <message>
-        <source>Masternodes count:</source>
-        <translation>Contagem de masternodes:</translation>
     </message>
 </context>
 <context>
@@ -2094,83 +1988,6 @@ Endereço: %4
         <translation>Tempo de resposta</translation>
     </message>
 </context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulário</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>Rótulo</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Aperte o Botão</translation>
-    </message>
-    <message>
-        <source>No active Master Node yet</source>
-        <translation>Nenhum MasterNOde ativo ainda</translation>
-    </message>
-    <message>
-        <source>No transactions yet</source>
-        <translation>Nenhuma transação ainda</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>Amount</source>
-        <translation>Quantidade</translation>
-    </message>
-    <message>
-        <source>Enter a PIVX address (e.g. %1)</source>
-        <translation>Insira um endereço PIVX (e.g. %1)</translation>
-    </message>
-    <message>
-        <source>%1 d</source>
-        <translation>%1 d</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 h</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <source>%1 s</source>
-        <translation>%1 s</translation>
-    </message>
-    <message>
-        <source>NETWORK</source>
-        <translation>REDE</translation>
-    </message>
-    <message>
-        <source>UNKNOWN</source>
-        <translation>DESCONHECIDO</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>Nenhum</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>N/A</translation>
-    </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
-    </message>
-    <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
-    </message>
-    </context>
 <context>
     <name>RPCConsole</name>
     <message>
@@ -3547,29 +3364,6 @@ Endereço: %4
         <translation>padrão</translation>
     </message>
 </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>PushButton</source>
-        <translation>Aperte o Botão</translation>
-    </message>
-    <message>
-        <source>zPiv</source>
-        <translation>zPIV</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Quantidade:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Select/Deselect All</source>
-        <translation>Selecionar/Deselecionar todos</translation>
-    </message>
-    </context>
 <context>
     <name>pivx-core</name>
     <message>

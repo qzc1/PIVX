@@ -643,13 +643,6 @@
     </message>
     </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Obrazac</translation>
-    </message>
-    </context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -734,17 +727,6 @@
         <translation>Ovdje nije moguće stvoriti direktorij za podatke.</translation>
     </message>
 </context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Obrazac</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1095,30 +1077,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
 </translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Omogućite automint PIV jedinica na zPIV</translation>
-    </message>
-    <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Omogući zPIV Automint</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Postotak dolaznih PIV koji se automatski pretvara u zPIV putem protokola Zerocoin (min: 10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Postotak automatiziranog zPIV</translation>
-    </message>
-    <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno PIV za apoen</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Preferirana Automint zPIV denominacijad</translation>
-    </message>
-    <message>
         <source>Stake split threshold:</source>
         <translation>Prag razdvajanja Stake-a:</translation>
     </message>
@@ -1435,20 +1393,6 @@ Adresa: %4
         <translation>Ping Time</translation>
     </message>
 </context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Obrazac</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TextLabel</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -2908,37 +2852,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Zadani</translation>
     </message>
 </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Odabrani zPIV za utrošiti</translation>
-    </message>
-    <message>
-        <source>Coin Control</source>
-        <translation>Upravljanje novčićem</translation>
-    </message>
-    <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Količina:</translation>
-    </message>
-    <message>
-        <source>Is Spendable</source>
-        <translation>Je moguće utrošiti</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Select/Deselect All</source>
-        <translation>Odaberite/poništi odabir za Sve</translation>
-    </message>
-    </context>
 <context>
     <name>pivx-core</name>
     <message>

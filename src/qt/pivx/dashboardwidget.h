@@ -18,25 +18,6 @@
 #include <QLineEdit>
 #include <QMap>
 
-#if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h" /* for USE_QTCHARTS */
-#endif
-
-#ifdef USE_QTCHARTS
-
-#include <QtCharts/QChartView>
-#include <QtCharts/QBarSeries>
-#include <QtCharts/QBarCategoryAxis>
-#include <QtCharts/QBarSet>
-#include <QtCharts/QChart>
-#include <QtCharts/QValueAxis>
-
-QT_CHARTS_USE_NAMESPACE
-
-using namespace QtCharts;
-
-#endif
-
 class PIVXGUI;
 class WalletModel;
 
@@ -81,9 +62,7 @@ public:
     QMap<int, std::pair<qint64, qint64>> amountsByCache;
     qreal maxValue = 0;
     qint64 totalPiv = 0;
-    qint64 totalZpiv = 0;
     QList<qreal> valuesPiv;
-    QList<qreal> valueszPiv;
     QStringList xLabels;
 };
 
@@ -124,14 +103,6 @@ private slots:
     void showList();
     void onTxArrived(const QString& hash, const bool& isCoinStake, const bool& isCSAnyType);
 
-#ifdef USE_QTCHARTS
-    void windowResizeEvent(QResizeEvent *event);
-    void changeChartColors();
-    void onChartYearChanged(const QString&);
-    void onChartMonthChanged(const QString&);
-    void onChartArrowClicked(bool goLeft);
-#endif
-
 private:
     Ui::DashboardWidget *ui;
     FurAbstractListItemDelegate* txViewDelegate;
@@ -140,50 +111,6 @@ private:
     TransactionTableModel* txModel;
     int nDisplayUnit = -1;
     bool isSync = false;
-
-#ifdef USE_QTCHARTS
-
-    int64_t lastRefreshTime = 0;
-    std::atomic<bool> isLoading;
-
-    // Chart
-    TransactionFilterProxy* stakesFilter = nullptr;
-    bool isChartInitialized = false;
-    QChartView *chartView = nullptr;
-    QBarSeries *series = nullptr;
-    QBarSet *set0 = nullptr;
-    QBarSet *set1 = nullptr;
-
-    QBarCategoryAxis *axisX = nullptr;
-    QValueAxis *axisY = nullptr;
-
-    QChart *chart = nullptr;
-    bool isChartMin = false;
-    ChartShowType chartShow = YEAR;
-    int yearFilter = 0;
-    int monthFilter = 0;
-    int dayStart = 1;
-    bool hasZpivStakes = false;
-
-    ChartData* chartData = nullptr;
-    bool hasStakes = false;
-
-    void initChart();
-    void showHideEmptyChart(bool show, bool loading, bool forceView = false);
-    bool refreshChart();
-    void tryChartRefresh();
-    void updateStakeFilter();
-    const QMap<int, std::pair<qint64, qint64>> getAmountBy();
-    bool loadChartData(bool withMonthNames);
-    void updateAxisX(const QStringList *arg = nullptr);
-    void setChartShow(ChartShowType type);
-    std::pair<int, int> getChartRange(QMap<int, std::pair<qint64, qint64>> amountsBy);
-
-private slots:
-    void onChartRefreshed();
-
-#endif
-
 };
 
 #endif // DASHBOARDWIDGET_H

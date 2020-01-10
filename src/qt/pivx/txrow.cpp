@@ -54,12 +54,7 @@ void TxRow::setType(bool isLightTheme, int type, bool isConfirmed){
     QString css;
     bool sameIcon = false;
     switch (type) {
-        case TransactionRecord::ZerocoinMint:
-            path = "://ic-transaction-mint";
-            css = "text-list-amount-send";
-            break;
         case TransactionRecord::Generated:
-        case TransactionRecord::StakeZPIV:
         case TransactionRecord::MNReward:
         case TransactionRecord::StakeMint:
             path = "://ic-transaction-staked";
@@ -68,18 +63,8 @@ void TxRow::setType(bool isLightTheme, int type, bool isConfirmed){
         case TransactionRecord::RecvWithObfuscation:
         case TransactionRecord::RecvWithAddress:
         case TransactionRecord::RecvFromOther:
-        case TransactionRecord::RecvFromZerocoinSpend:
-            path = "://ic-transaction-received";
-            css = "text-list-amount-receive";
-            break;
         case TransactionRecord::SendToAddress:
         case TransactionRecord::SendToOther:
-        case TransactionRecord::ZerocoinSpend:
-        case TransactionRecord::ZerocoinSpend_Change_zPiv:
-        case TransactionRecord::ZerocoinSpend_FromMe:
-            path = "://ic-transaction-sent";
-            css = "text-list-amount-send";
-            break;
         case TransactionRecord::SendToSelf:
             path = "://ic-transaction-mint";
             css = "text-list-amount-send";

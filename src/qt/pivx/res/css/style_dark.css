@@ -327,39 +327,6 @@ QPushButton[cssClass="btn-check-cold-staking"]:checked {
     color: #B088FF;
 }
 
-*[cssClass="btn-nav-privacy"] {
-    qproperty-icon: url("://ic-nav-privacy") off,
-    url("//ic-nav-privacy-active") on ;
-    qproperty-iconSize: 24px 40px;
-    background-color:transparent;
-    font-size:14px;
-    color: #938da5;
-}
-
-*[cssClass="btn-nav-privacy"]:checked {
-    background-color: #0f0b16;
-    font-size:14px;
-    color: #B088FF;
-}
-
-*[cssClass="btn-nav-privacy"]:checked:hover  {
-    background-color: #0f0b16;
-    color: #B088FF;
-}
-
-*[cssClass="btn-nav-privacy"]:hover {
-    background-color: #1A000000;
-    color: #938da5;
-}
-
-*[cssClass="btn-nav-privacy-active"] {
-    qproperty-icon:url("://ic-nav-privacy-active")  ;
-    qproperty-iconSize: 24px 40px;
-    background-color: #0f0b16;
-    font-size:14px;
-    color: #B088FF;
-}
-
 *[cssClass="btn-nav-master"] {
     qproperty-icon: url("://ic-nav-master") off,
     url("://ic-nav-master-active") on;
@@ -1726,40 +1693,15 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     border-bottom: 5px solid #69656F;
 }
 
-*[cssClass="text-stake-zpiv"] {
-    color:#b088ff;
-    font-size:16px;
-    padding:10px;
-    border-bottom: 5px solid #b088ff;
-}
-
-*[cssClass="text-stake-zpiv-disable"] {
-    color:#423E4A;
-    font-size:16px;
-    padding:10px;
-    border-bottom: 5px solid #423E4A;
-}
-
 *[cssClass="legend-chart"] {
     color:#FFFFFF;
     font-size:16px;
-}
-
-*[cssClass="text-chart-zpiv"] {
-    color:#b088ff;
-    font-size:16px;
-    padding-left:4px;
 }
 
 *[cssClass="text-chart-piv"] {
     color:#5c4b7d;
     font-size:16px;
     padding-left:4px;
-}
-
-*[cssClass="square-chart-zpiv"] {
-    background-color:#b088ff;
-    border:none;
 }
 
 *[cssClass="square-chart-piv"] {
@@ -2336,19 +2278,6 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     border:  2px solid #0f0b16;
     border-radius: 12px;
 }
-
-*[cssClass="coin-icon-zpiv"] {
-    qproperty-icon: url("://ic-coin-zpiv") off,
-    url("://ic-coin-zpiv") on ;
-    qproperty-iconSize: 24px 24px;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-color: #FFFFFF;
-    border:  2px solid #0f0b16;
-    border-radius: 12px;
-}
-
-
 
 /*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 HH      Dialog

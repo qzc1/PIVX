@@ -826,25 +826,6 @@ Użyj hasła składającego się z dziesięciu lub więcej losowych znaków lub 
     </message>
 </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Forma</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Naciśnij przycisk</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>ANULUJ</translation>
-    </message>
-    <message>
-        <source>SAVE</source>
-        <translation>ZAPISZ</translation>
-    </message>
-</context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -927,49 +908,6 @@ Użyj hasła składającego się z dziesięciu lub więcej losowych znaków lub 
     <message>
         <source>Cannot create data directory here.</source>
         <translation>Nie można tutaj utworzyć katalogu danych.</translation>
-    </message>
-</context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Forma</translation>
-    </message>
-    <message>
-        <source>GOVERNANCE</source>
-        <translation>ZARZĄDZANIE</translation>
-    </message>
-    <message>
-        <source>Update Proposals</source>
-        <translation>Aktualizuj propozycje</translation>
-    </message>
-    <message>
-        <source>Next super block:</source>
-        <translation>Następny super blok:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Blocks to next super block:</source>
-        <translation>Bloków to następnego super bloku:</translation>
-    </message>
-    <message>
-        <source>Days to budget payout (estimate):</source>
-        <translation>Dni do wypłaty (szacunkowe):</translation>
-    </message>
-    <message>
-        <source>Allotted budget:</source>
-        <translation>Budżet przydzielony:</translation>
-    </message>
-    <message>
-        <source>Budget left:</source>
-        <translation>Pozostały budżet:</translation>
-    </message>
-    <message>
-        <source>Masternodes count:</source>
-        <translation>Liczniki masternodes:</translation>
     </message>
 </context>
 <context>
@@ -1365,38 +1303,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations </translation>
         <translation>Mapuj port za pomocą &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Włącz automatyczny minting PIV do zPIV</translation>
-    </message>
-    <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Włącz zPIV Automint</translation>
-    </message>
-    <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>Włącz automatyczne wybijanie zPIV-ów z określonych adresów</translation>
-    </message>
-    <message>
-        <source>Enable Automint Addresses</source>
-        <translation>Włącz adresy Automint</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent PIV, które są automatycznie konwertowane na zPIV za pomocą protokołu Zerocoin (min: 10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Procent automint zPIV</translation>
-    </message>
-    <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Zaczekaj z automatyczną konwersją na Zerocoin, aż będzie dostępna wystarczająca wartość PIV dla tego nominału</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Preferowane nominały Automint zPIV</translation>
-    </message>
-    <message>
         <source>Stake split threshold:</source>
         <translation>Próg podziału stawki 'stake' :</translation>
     </message>
@@ -1727,94 +1633,6 @@ Adres: %4
     <message>
         <source>Ping Time</source>
         <translation>Czas Pingu</translation>
-    </message>
-</context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Forma</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Naciśnij przycisk</translation>
-    </message>
-    <message>
-        <source>No active Master Node yet</source>
-        <translation>Brak aktywnego Master Node</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    <message>
-        <source>Open proposal page in browser</source>
-        <translation>Otwórz stronę propozycji w przeglądarce</translation>
-    </message>
-    <message>
-        <source> remaining payment(s).</source>
-        <translation>pozostałe płatności.()</translation>
-    </message>
-    <message>
-        <source>Yes:</source>
-        <translation>Tak:</translation>
-    </message>
-    <message>
-        <source>Abstain:</source>
-        <translation>Wstrzymać się:</translation>
-    </message>
-    <message>
-        <source>No:</source>
-        <translation>Nie:</translation>
-    </message>
-    <message>
-        <source>A proposal URL can be used for phishing, scams and computer viruses. Open this link only if you trust the following URL.
-</source>
-        <translation>Adres URL propozycji może być używany do phishingu, oszustw i wirusów komputerowych. Otwórz ten link tylko wtedy, gdy ufasz poniższemu adresowi URL.
-</translation>
-    </message>
-    <message>
-        <source>Open link</source>
-        <translation>Otwórz link</translation>
-    </message>
-    <message>
-        <source>Copy link</source>
-        <translation>Kopiuj link</translation>
-    </message>
-    <message>
-        <source>Wallet Locked</source>
-        <translation>Portfel zablokowany</translation>
-    </message>
-    <message>
-        <source>You must unlock your wallet to vote.</source>
-        <translation>Aby głosować, musisz odblokować portfel.</translation>
-    </message>
-    <message>
-        <source>Do you want to vote %1 on</source>
-        <translation>Czy chcesz głosować na %1</translation>
-    </message>
-    <message>
-        <source>using all your masternodes?</source>
-        <translation>używać wszystkich swoich masternodów?</translation>
-    </message>
-    <message>
-        <source>Proposal Hash:</source>
-        <translation>Hash propozycji:</translation>
-    </message>
-    <message>
-        <source>Proposal URL:</source>
-        <translation>URL propozycji:</translation>
-    </message>
-    <message>
-        <source>Confirm Vote</source>
-        <translation>Potwierdź głosowanie</translation>
-    </message>
-    <message>
-        <source>Vote Results</source>
-        <translation>Wyniki głosowania</translation>
     </message>
 </context>
 <context>
@@ -3502,37 +3320,6 @@ Sprawdź adres i spróbuj ponownie.</translation>
         <translation>domyślny</translation>
     </message>
 </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Wybierz zPIV do wydania</translation>
-    </message>
-    <message>
-        <source>Coin Control</source>
-        <translation>Kontrola monet</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Naciśnij przycisk</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Ilość:</translation>
-    </message>
-    <message>
-        <source>Is Spendable</source>
-        <translation>do wydania</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Select/Deselect All</source>
-        <translation>Wybierz / Odznacz wszystko</translation>
-    </message>
-    </context>
 <context>
     <name>pivx-core</name>
     <message>

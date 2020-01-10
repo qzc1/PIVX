@@ -7,12 +7,12 @@
 #include "optionsmodel.h"
 
 namespace GuiTransactionsUtils {
+QString ProcessSendCoinsReturn(PWidget::Translator *parent, const WalletModel::SendCoinsReturn &sendCoinsReturn,
+                            WalletModel *walletModel, CClientUIInterface::MessageBoxFlags& informType, const QString &msgArg,
+                            bool fPrepare) {
+    QString retStr;
+    informType = CClientUIInterface::MSG_WARNING;
 
-    QString ProcessSendCoinsReturn(PWidget::Translator *parent, const WalletModel::SendCoinsReturn &sendCoinsReturn,
-                                WalletModel *walletModel, CClientUIInterface::MessageBoxFlags& informType, const QString &msgArg,
-                                bool fPrepare) {
-        QString retStr;
-        informType = CClientUIInterface::MSG_WARNING;
         // This comment is specific to SendCoinsDialog usage of WalletModel::SendCoinsReturn.
         // WalletModel::TransactionCommitFailed is used only in WalletModel::sendCoins()
         // all others are used only in WalletModel::prepareTransaction()
@@ -45,36 +45,35 @@ namespace GuiTransactionsUtils {
                 break;
             case WalletModel::AnonymizeOnlyUnlocked:
                 // Unlock is only need when the coins are send
-                if (!fPrepare) {
-                    // Unlock wallet if it wasn't fully unlocked already
-                    walletModel->requestUnlock(AskPassphraseDialog::Context::Unlock_Full, false);
-                    if (walletModel->getEncryptionStatus() != WalletModel::Unlocked) {
-                        retStr = parent->translate(
-                                "Error: The wallet was unlocked for staking only. Unlock canceled.");
-                    }
-                } else
-                    retStr = parent->translate("Error: The wallet is unlocked for staking only. Fully unlock the wallet to send the transaction.");
-                break;
+            if (!fPrepare) {
+                // Unlock wallet if it wasn't fully unlocked already
+                walletModel->requestUnlock(AskPassphraseDialog::Context::Unlock_Full, false);
+                if (walletModel->getEncryptionStatus() != WalletModel::Unlocked) {
+                    retStr = parent->translate(
+                            "Error: The wallet was unlocked for staking only. Unlock canceled.");
+                }
+            } else
+                retStr = parent->translate("Error: The wallet is unlocked for staking only. Fully unlock the wallet to send the transaction.");
+            break;
             case WalletModel::InsaneFee:
                 retStr = parent->translate(
                         "A fee %1 times higher than %2 per kB is considered an insanely high fee.").arg(10000).arg(
                         BitcoinUnits::formatWithUnit(walletModel->getOptionsModel()->getDisplayUnit(),
                                                      ::minRelayTxFee.GetFeePerK()));
                 break;
-            // included to prevent a compiler warning.
+                // included to prevent a compiler warning.
             case WalletModel::OK:
             default:
-                return retStr; // No issue
+                 return retStr;
         }
 
         return retStr;
     }
 
-    void ProcessSendCoinsReturnAndInform(PWidget* parent, const WalletModel::SendCoinsReturn& sendCoinsReturn, WalletModel* walletModel, const QString& msgArg, bool fPrepare) {
-        CClientUIInterface::MessageBoxFlags informType;
-        QString informMsg = ProcessSendCoinsReturn(parent, sendCoinsReturn, walletModel, informType, msgArg, fPrepare);
-        if (!informMsg.isEmpty()) parent->emitMessage(parent->translate("Send Coins"), informMsg, informType, 0);
+void ProcessSendCoinsReturnAndInform(PWidget* parent, const WalletModel::SendCoinsReturn& sendCoinsReturn, WalletModel* walletModel, const QString& msgArg, bool fPrepare) {
+    CClientUIInterface::MessageBoxFlags informType;
+    QString informMsg = ProcessSendCoinsReturn(parent, sendCoinsReturn, walletModel, informType, msgArg, fPrepare);
+    if (!informMsg.isEmpty()) parent->emitMessage(parent->translate("Send Coins"), informMsg, informType, 0);
     }
-
 
 }

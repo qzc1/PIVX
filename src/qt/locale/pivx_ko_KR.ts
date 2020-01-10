@@ -947,49 +947,6 @@ for staking</source>
     </message>
 </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Form</translation>
-    </message>
-    <message>
-        <source>Transaction Details</source>
-        <translation>전송 상세내역</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>누르기</translation>
-    </message>
-    <message>
-        <source>5000</source>
-        <translation>5000</translation>
-    </message>
-    <message>
-        <source>100</source>
-        <translation>100</translation>
-    </message>
-    <message>
-        <source>10</source>
-        <translation>10</translation>
-    </message>
-    <message>
-        <source>1000</source>
-        <translation>1000</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>모두 선택</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>취소</translation>
-    </message>
-    <message>
-        <source>SAVE</source>
-        <translation>저장</translation>
-    </message>
-</context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -1072,33 +1029,6 @@ for staking</source>
     <message>
         <source>Cannot create data directory here.</source>
         <translation>여기에 디렉토리를 만들 수 없습니다.</translation>
-    </message>
-</context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Form</translation>
-    </message>
-    <message>
-        <source>Update Proposals</source>
-        <translation>제안서 갱신</translation>
-    </message>
-    <message>
-        <source>Next super block:</source>
-        <translation>다음 슈퍼 블록</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Budget left:</source>
-        <translation>남은 예산</translation>
-    </message>
-    <message>
-        <source>Masternodes count:</source>
-        <translation>마스터노드 수</translation>
     </message>
 </context>
 <context>
@@ -1595,34 +1525,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>보상받은 PIV를 zPIV로 자동변환 활성화</translation>
-    </message>
-    <message>
-        <source>Enable zPIV Automint</source>
-        <translation>zPIV 자동생성 활성화</translation>
-    </message>
-    <message>
-        <source>Enable Automint Addresses</source>
-        <translation>Automint 주소 사용</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>PIV수신시 자동변환 zPIV 비율 (최소값:10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>자동 변환되는 zPIV 비율</translation>
-    </message>
-    <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>이 디노미네이션의 PIV가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>선호하는 자동생성 zPIV 디노미네이션 </translation>
-    </message>
-    <message>
         <source>Stake split threshold:</source>
         <translation>Stake split threshold:</translation>
     </message>
@@ -1943,40 +1845,6 @@ Address: %4
         <translation>응답 시간</translation>
     </message>
 </context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Form</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>텍스트라벨</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>누르기</translation>
-    </message>
-    <message>
-        <source>No active Master Node yet</source>
-        <translation>지금은 활성화된 마스터 노드가 없습니다.</translation>
-    </message>
-    <message>
-        <source>Convert back to PIV</source>
-        <translation>PIV 로 재변환</translation>
-    </message>
-    <message>
-        <source>Zerocoin</source>
-        <translation>제로코인</translation>
-    </message>
-    <message>
-        <source>convert</source>
-        <translation>변환</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -3609,41 +3477,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>기본값</translation>
     </message>
 </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>Select zPIV to Spend</source>
-        <translation>사용할 zPIV 선택</translation>
-    </message>
-    <message>
-        <source>Coin Control</source>
-        <translation>코인 설정</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>누르기</translation>
-    </message>
-    <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>수량:</translation>
-    </message>
-    <message>
-        <source>Is Spendable</source>
-        <translation>전송가능한 코인수</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Select/Deselect All</source>
-        <translation>전체 선택 / 해제</translation>
-    </message>
-    </context>
 <context>
     <name>pivx-core</name>
     <message>

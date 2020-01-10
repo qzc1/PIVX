@@ -52,8 +52,6 @@ public:
         READWRITE(nTime);
         READWRITE(nBits);
         READWRITE(nNonce);
-
-        //zerocoin active, header changes to include accumulator checksum
         if(nVersion > 3 && nVersion < 7)
             READWRITE(nAccumulatorCheckpoint);
     }
@@ -149,8 +147,6 @@ public:
     {
         return !IsProofOfStake();
     }
-
-    bool IsZerocoinStake() const;
 
     std::pair<COutPoint, unsigned int> GetProofOfStake() const
     {

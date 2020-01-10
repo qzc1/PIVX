@@ -209,16 +209,16 @@ bool MasterNodeWizardDialog::createMN(){
 
         QString returnMsg = "Unknown error";
         // process prepareStatus and on error generate message shown to user
-        CClientUIInterface::MessageBoxFlags informType;
-        returnMsg = GuiTransactionsUtils::ProcessSendCoinsReturn(
-                this,
-                prepareStatus,
-                walletModel,
-                informType, // this flag is not needed
-                BitcoinUnits::formatWithUnit(walletModel->getOptionsModel()->getDisplayUnit(),
-                                             currentTransaction.getTransactionFee()),
-                true
-        );
+                CClientUIInterface::MessageBoxFlags informType;
+                returnMsg = GuiTransactionsUtils::ProcessSendCoinsReturn(
+                        this,
+                        prepareStatus,
+                        walletModel,
+                        informType, // this flag is not needed
+                        BitcoinUnits::formatWithUnit(walletModel->getOptionsModel()->getDisplayUnit(),
+                                                     currentTransaction.getTransactionFee()),
+                        true
+                );
 
         if (prepareStatus.status != WalletModel::OK) {
             returnStr = tr("Prepare master node failed.\n\n%1\n").arg(returnMsg);
@@ -233,7 +233,6 @@ bool MasterNodeWizardDialog::createMN(){
                 walletModel,
                 informType
         );
-
         if (sendStatus.status == WalletModel::OK) {
             // now change the conf
             std::string strConfFile = "masternode.conf";

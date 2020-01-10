@@ -77,18 +77,12 @@ public:
         Other,
         Generated,
         StakeMint,
-        StakeZPIV,
         SendToAddress,
         SendToOther,
         RecvWithAddress,
         MNReward,
         RecvFromOther,
         SendToSelf,
-        ZerocoinMint,
-        ZerocoinSpend,
-        RecvFromZerocoinSpend,
-        ZerocoinSpend_Change_zPiv,
-        ZerocoinSpend_FromMe,
         RecvWithObfuscation,
         ObfuscationDenominate,
         ObfuscationCollateralPayment,
@@ -122,6 +116,7 @@ public:
 
     /** Decompose CWallet transaction to model transaction records.
      */
+    static bool showTransaction(const CWalletTx& wtx);
     static QList<TransactionRecord> decomposeTransaction(const CWallet* wallet, const CWalletTx& wtx);
 
     /// Helpers

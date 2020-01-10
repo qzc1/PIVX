@@ -1031,69 +1031,6 @@ Den startar automatiskt så snart plånboken har tillräckligt många bekräftel
     </message>
 </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulär</translation>
-    </message>
-    <message>
-        <source>Transaction Details</source>
-        <translation>Transaktions detaljer</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Tryck på knappen</translation>
-    </message>
-    <message>
-        <source>This will unlock your wallet fully, so that anyone with access to it can spend until the wallet is closed or locked again.</source>
-        <translation>Detta låser upp din plånbok helt, så att alla som har tillgång till den kan spendera tills plånboken är stängd eller låst igen.</translation>
-    </message>
-    <message>
-        <source>5000</source>
-        <translation>5000</translation>
-    </message>
-    <message>
-        <source>100</source>
-        <translation>100</translation>
-    </message>
-    <message>
-        <source>10</source>
-        <translation>10</translation>
-    </message>
-    <message>
-        <source>1000</source>
-        <translation>1000</translation>
-    </message>
-    <message>
-        <source>50</source>
-        <translation>50</translation>
-    </message>
-    <message>
-        <source>500</source>
-        <translation>500</translation>
-    </message>
-    <message>
-        <source>5</source>
-        <translation>5</translation>
-    </message>
-    <message>
-        <source>1</source>
-        <translation>1</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>välj alla</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>cancel</translation>
-    </message>
-    <message>
-        <source>SAVE</source>
-        <translation>spara</translation>
-    </message>
-</context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -1176,49 +1113,6 @@ Den startar automatiskt så snart plånboken har tillräckligt många bekräftel
     <message>
         <source>Cannot create data directory here.</source>
         <translation>Kan inte skapa data katalog här.</translation>
-    </message>
-</context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulär</translation>
-    </message>
-    <message>
-        <source>GOVERNANCE</source>
-        <translation>MANAGEMENT</translation>
-    </message>
-    <message>
-        <source>Update Proposals</source>
-        <translation>Uppdatera förslag</translation>
-    </message>
-    <message>
-        <source>Next super block:</source>
-        <translation>Nästa Superblock</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Blocks to next super block:</source>
-        <translation>Block till nästa superblock:</translation>
-    </message>
-    <message>
-        <source>Days to budget payout (estimate):</source>
-        <translation>Dagar till budget utbetalning (estimerad):</translation>
-    </message>
-    <message>
-        <source>Allotted budget:</source>
-        <translation>Utvald budget:</translation>
-    </message>
-    <message>
-        <source>Budget left:</source>
-        <translation>Kvar av budget:</translation>
-    </message>
-    <message>
-        <source>Masternodes count:</source>
-        <translation>Masternode beräkning:</translation>
     </message>
 </context>
 <context>
@@ -1520,7 +1414,7 @@ Den startar automatiskt så snart plånboken har tillräckligt många bekräftel
 
 
 
- </translation>
+ </translation>
     </message>
     <message>
         <source>IP or port cannot be empty</source>
@@ -1929,38 +1823,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Kartlägg port med &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Tillåt automatisk prägling med PIV enheter till zPIV</translation>
-    </message>
-    <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Tillåt zPIV Autoprägling</translation>
-    </message>
-    <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>Aktivera automatisk zPIV prägling från specifika adresser</translation>
-    </message>
-    <message>
-        <source>Enable Automint Addresses</source>
-        <translation>Aktivera autopräglingsadresser</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent av inkommande PIV som automatiskt konverteras till zPIV via Zerocoin Protokollet (min: 10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Procent av autopräglade zPIV</translation>
-    </message>
-    <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många PIV för denna valör är tillgängliga</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Preferens på zPIV valör i autoprägling</translation>
-    </message>
-    <message>
         <source>Stake split threshold:</source>
         <translation>Staking delnings tröskel:</translation>
     </message>
@@ -2299,154 +2161,6 @@ Adress: %4
     <message>
         <source>Ping Time</source>
         <translation>Ping Tid</translation>
-    </message>
-</context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulär</translation>
-    </message>
-    <message>
-        <source>Title</source>
-        <translation>Titel</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>text etikett</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Tryck på knappen</translation>
-    </message>
-    <message>
-        <source>No active Master Node yet</source>
-        <translation>Ingen Aktiv Masternode ännu</translation>
-    </message>
-    <message>
-        <source>Privacy</source>
-        <translation>Privat</translation>
-    </message>
-    <message>
-        <source>Convert</source>
-        <translation>Konvertera</translation>
-    </message>
-    <message>
-        <source>Mint</source>
-        <translation>Prägla</translation>
-    </message>
-    <message>
-        <source>Minting zPIV anonymizes your PIV by removing any
-transaction history, making transactions untraceable </source>
-        <translation>Prägling av zPIV anonymiserar dina PIV genom att ta bort
-transaktionshistorik, vilket gör transaktioner ospårbara</translation>
-    </message>
-    <message>
-        <source>Mint new zPIV or convert back to PIV</source>
-        <translation>Prägla nya zPIV eller konvertera tillbaka till PIV</translation>
-    </message>
-    <message>
-        <source>Last Zerocoin Movements</source>
-        <translation>Sista Zerocoin Rörelsen</translation>
-    </message>
-    <message>
-        <source>No transactions yet</source>
-        <translation>Inga transaktioner ännu.</translation>
-    </message>
-    <message>
-        <source>Mint zPIV</source>
-        <translation>Prägla zPIV</translation>
-    </message>
-    <message>
-        <source>Enter amount of PIV to mint into zPIV</source>
-        <translation>Ange PIV beloppet att prägla till zPIV</translation>
-    </message>
-    <message>
-        <source>Convert back to PIV</source>
-        <translation>Konvertera tillbaka till PIV</translation>
-    </message>
-    <message>
-        <source>Enter amount of zPIV to convert back into PIV</source>
-        <translation>Ange mängden zPIV som ska konverteras tillbaka till PIV</translation>
-    </message>
-    <message>
-        <source>Zerocoin</source>
-        <translation>Zerocoin</translation>
-    </message>
-    <message>
-        <source>zPIV is currently undergoing maintenance</source>
-        <translation>zPIV genomgår underhåll</translation>
-    </message>
-    <message>
-        <source>convert</source>
-        <translation>konvertera</translation>
-    </message>
-    <message>
-        <source>mint</source>
-        <translation>prägla</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    <message>
-        <source>Open proposal page in browser</source>
-        <translation>Öppna förslagssida i webbläsare</translation>
-    </message>
-    <message>
-        <source> remaining payment(s).</source>
-        <translation>återstående betalningar</translation>
-    </message>
-    <message>
-        <source>Yes:</source>
-        <translation>Ja:</translation>
-    </message>
-    <message>
-        <source>Abstain:</source>
-        <translation>Avstå:</translation>
-    </message>
-    <message>
-        <source>No:</source>
-        <translation>Nej:</translation>
-    </message>
-    <message>
-        <source>Open link</source>
-        <translation>Öppna länk:</translation>
-    </message>
-    <message>
-        <source>Copy link</source>
-        <translation>Kopiera länk:</translation>
-    </message>
-    <message>
-        <source>Wallet Locked</source>
-        <translation>Plånbok låst:</translation>
-    </message>
-    <message>
-        <source>You must unlock your wallet to vote.</source>
-        <translation>Du måste låsa upp din plånbok för att rösta.</translation>
-    </message>
-    <message>
-        <source>Do you want to vote %1 on</source>
-        <translation>Vill du rösta %1 på</translation>
-    </message>
-    <message>
-        <source>using all your masternodes?</source>
-        <translation>använda alla dina masternodes ?</translation>
-    </message>
-    <message>
-        <source>Proposal Hash:</source>
-        <translation>Föreslags hash:</translation>
-    </message>
-    <message>
-        <source>Proposal URL:</source>
-        <translation>Föreslags URL:</translation>
-    </message>
-    <message>
-        <source>Confirm Vote</source>
-        <translation>Bekräfta Röst:</translation>
-    </message>
-    <message>
-        <source>Vote Results</source>
-        <translation>Röst resultat:</translation>
     </message>
 </context>
 <context>
@@ -4219,37 +3933,6 @@ Var vänlig kontrollera adressen och försök igen.</translation>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Välj zPIV att Spendera</translation>
-    </message>
-    <message>
-        <source>Coin Control</source>
-        <translation>Mynt Kontroll</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Tryck på knappen</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Kvantitet:</translation>
-    </message>
-    <message>
-        <source>Is Spendable</source>
-        <translation>Är Spenderbar</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Select/Deselect All</source>
-        <translation>Markera/Avmarkera alla</translation>
-    </message>
-    </context>
-<context>
     <name>pivx-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -5221,15 +4904,15 @@ Var vänlig kontrollera adressen och försök igen.</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Ställ in maximala blockstorlek i bytes (standard: %d) </translation>
+        <translation>Ställ in maximala blockstorlek i bytes (standard: %d) </translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation>Ställ in minimum blockstorlek i bytes (standard: %u) </translation>
+        <translation>Ställ in minimum blockstorlek i bytes (standard: %u) </translation>
     </message>
     <message>
         <source>Set the Maximum reorg depth (default: %u)</source>
-        <translation>Ställ in maximala reorg djup (standard: %u) </translation>
+        <translation>Ställ in maximala reorg djup (standard: %u) </translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
@@ -5241,7 +4924,7 @@ Var vänlig kontrollera adressen och försök igen.</translation>
     </message>
     <message>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
-        <translation>Ställer in DB_PRIVATE flaggan i plånbokens db miljö (standard: %u) </translation>
+        <translation>Ställer in DB_PRIVATE flaggan i plånbokens db miljö (standard: %u) </translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>

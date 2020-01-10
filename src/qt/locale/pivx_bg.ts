@@ -647,13 +647,6 @@
     </message>
     </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>От</translation>
-    </message>
-    </context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -738,17 +731,6 @@
         <translation>Не може да създадете нова папка за данни точно тук.</translation>
     </message>
 </context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>От</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1098,30 +1080,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Картографирай портовете използвайки &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Включи автоматичното емитиране на PIV единици в zPIV</translation>
-    </message>
-    <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Включи Автоматично емитиране на zPIV</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите PIV, който автоматично да се конвертира в zPIV посредтвом Zerocoin Протокола (мин: 10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Процент автоматично сечени zPIV</translation>
-    </message>
-    <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zPIV докато не се съберат достатъчно PIV за тази деноминация</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zPIV</translation>
-    </message>
-    <message>
         <source>Stake split threshold:</source>
         <translation>Праг на споделеното съхранение:</translation>
     </message>
@@ -1438,20 +1396,6 @@ Address: %4
         <translation>Ping отговор</translation>
     </message>
 </context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>От</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>ТекстовЕтикет</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -2911,37 +2855,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>по подразбиране</translation>
     </message>
 </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Изберете zPIV за Изпращане</translation>
-    </message>
-    <message>
-        <source>Coin Control</source>
-        <translation>Монетен контрол...</translation>
-    </message>
-    <message>
-        <source>zPiv</source>
-        <translation>zPIV</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Количество:</translation>
-    </message>
-    <message>
-        <source>Is Spendable</source>
-        <translation>В Налични за харечене</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Select/Deselect All</source>
-        <translation>Избери/Премахни Всички</translation>
-    </message>
-    </context>
 <context>
     <name>pivx-core</name>
     <message>

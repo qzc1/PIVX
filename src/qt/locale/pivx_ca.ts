@@ -795,21 +795,6 @@ for staking</source>
     </message>
 </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulari</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>Cancel·lar</translation>
-    </message>
-    <message>
-        <source>SAVE</source>
-        <translation>Gravar</translation>
-    </message>
-</context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -890,17 +875,6 @@ for staking</source>
         <translation>No és possible crear una carpeta de dades aquí.</translation>
     </message>
 </context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulari</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1256,24 +1230,6 @@ for staking</source>
         <translation>Temps de Ping</translation>
     </message>
 </context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulari</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>EtiquetaDeText</translation>
-    </message>
-    <message>
-        <source>No active Master Node yet</source>
-        <translation>Encara no es actiu el node Mestre</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -2035,21 +1991,6 @@ for staking</source>
     <message>
         <source>Welcome</source>
         <translation>Benvingut</translation>
-    </message>
-    </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Quantitat:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
     </message>
     </context>
 <context>

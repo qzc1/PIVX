@@ -94,19 +94,10 @@ bool fLiteMode = false;
 // SwiftX
 bool fEnableSwiftTX = true;
 int nSwiftTXDepth = 5;
-// Automatic Zerocoin minting
-bool fEnableZeromint = true;
-bool fEnableAutoConvert = true;
-int nZeromintPercentage = 10;
-int nPreferredDenom = 0;
-const int64_t AUTOMINT_DELAY = (60 * 5); // Wait at least 5 minutes until Automint starts
 
-/** Spork enforcement enabled time */
-int64_t enforceMasternodePaymentsTime = 4085657524;
 bool fSucessfullyLoaded = false;
 /** All denominations used by obfuscation */
 std::vector<int64_t> obfuScationDenominations;
-std::string strBudgetMode = "";
 
 std::map<std::string, std::string> mapArgs;
 std::map<std::string, std::vector<std::string> > mapMultiArgs;
@@ -221,8 +212,6 @@ bool LogAcceptCategory(const char* category)
                 ptrCategory->insert(std::string("swiftx"));
                 ptrCategory->insert(std::string("masternode"));
                 ptrCategory->insert(std::string("mnpayments"));
-                ptrCategory->insert(std::string("zero"));
-                ptrCategory->insert(std::string("mnbudget"));
                 ptrCategory->insert(std::string("staking"));
             }
         }

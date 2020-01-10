@@ -17,7 +17,6 @@
 #include "tinyformat.h"
 #include "uint256.h"
 #include "util.h"
-#include "libzerocoin/Denominations.h"
 
 #include <vector>
 
@@ -183,10 +182,6 @@ public:
     //! (memory only) Sequential id assigned to distinguish order in which blocks are received.
     uint32_t nSequenceId;
 
-    //! zerocoin specific fields
-    std::map<libzerocoin::CoinDenomination, int64_t> mapZerocoinSupply;
-    std::vector<libzerocoin::CoinDenomination> vMintDenominationsInBlock;
-
     void SetNull()
     {
         phashBlock = NULL;
@@ -217,11 +212,6 @@ public:
         nBits = 0;
         nNonce = 0;
         nAccumulatorCheckpoint = 0;
-        // Start supply of each denomination with 0s
-        for (auto& denom : libzerocoin::zerocoinDenomList) {
-            mapZerocoinSupply.insert(std::make_pair(denom, 0));
-        }
-        vMintDenominationsInBlock.clear();
     }
 
     CBlockIndex()
@@ -281,40 +271,6 @@ public:
         block.nNonce = nNonce;
         block.nAccumulatorCheckpoint = nAccumulatorCheckpoint;
         return block;
-    }
-
-    int64_t GetZerocoinSupply() const
-    {
-        int64_t nTotal = 0;
-        for (auto& denom : libzerocoin::zerocoinDenomList) {
-            nTotal += GetZcMintsAmount(denom);
-        }
-        return nTotal;
-    }
-
-    /**
-     * Total of mints added to the specific accumulator.
-     * @param denom
-     * @return
-     */
-    int64_t GetZcMints(libzerocoin::CoinDenomination denom) const
-    {
-        return mapZerocoinSupply.at(denom);
-    }
-
-    /**
-     * Total available amount in an specific denom.
-     * @param denom
-     * @return
-     */
-    int64_t GetZcMintsAmount(libzerocoin::CoinDenomination denom) const
-    {
-        return libzerocoin::ZerocoinDenominationToAmount(denom) * GetZcMints(denom);
-    }
-
-    bool MintedDenomination(libzerocoin::CoinDenomination denom) const
-    {
-        return std::find(vMintDenominationsInBlock.begin(), vMintDenominationsInBlock.end(), denom) != vMintDenominationsInBlock.end();
     }
 
     uint256 GetBlockHash() const
@@ -521,8 +477,6 @@ public:
         READWRITE(nNonce);
         if(this->nVersion > 3) {
             READWRITE(nAccumulatorCheckpoint);
-            READWRITE(mapZerocoinSupply);
-            READWRITE(vMintDenominationsInBlock);
         }
 
     }

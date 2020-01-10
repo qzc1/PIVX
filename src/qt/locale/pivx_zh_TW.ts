@@ -291,9 +291,6 @@
     <name>DefaultDialog</name>
     </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    </context>
-<context>
     <name>EditAddressDialog</name>
     </context>
 <context>
@@ -301,9 +298,6 @@
     </context>
 <context>
     <name>FreespaceChecker</name>
-    </context>
-<context>
-    <name>GovernancePage</name>
     </context>
 <context>
     <name>HelpMessageDialog</name>
@@ -415,16 +409,6 @@
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>TextLabel</source>
-        <translation>文字標籤</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
     </context>
 <context>
     <name>QObject</name>
@@ -724,9 +708,6 @@
     </context>
 <context>
     <name>WelcomeContentWidget</name>
-    </context>
-<context>
-    <name>ZPivControlDialog</name>
     </context>
 <context>
     <name>pivx-core</name>

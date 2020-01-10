@@ -595,13 +595,6 @@
     </message>
     </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Od</translation>
-    </message>
-    </context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -678,17 +671,6 @@
         <translation>Zde nelze vytvořit složku.</translation>
     </message>
 </context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Od</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1076,20 +1058,6 @@ Adresa: %4
         <translation>Čas pingnutí</translation>
     </message>
 </context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Od</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TextPopisku</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -1779,17 +1747,6 @@ Adresa: %4
     <message>
         <source>Welcome</source>
         <translation>Vítejte</translation>
-    </message>
-    </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>Quantity:</source>
-        <translation>Množství:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
     </message>
     </context>
 <context>

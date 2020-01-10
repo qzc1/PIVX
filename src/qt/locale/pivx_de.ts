@@ -1044,69 +1044,6 @@ Die staking Aktivität wird automatisch gestartet, sobald die Wallet genügend K
     </message>
 </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Formular</translation>
-    </message>
-    <message>
-        <source>Transaction Details</source>
-        <translation>Transaktionsdetails</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Druckknopf</translation>
-    </message>
-    <message>
-        <source>This will unlock your wallet fully, so that anyone with access to it can spend until the wallet is closed or locked again.</source>
-        <translation>Diese Option schaltet ihre Wallet ganz frei. Jeder der Zugriff hat, kann PIV ausgeben bis die Wallet wieder geschlossen oder gesperrt wird.</translation>
-    </message>
-    <message>
-        <source>5000</source>
-        <translation>5000</translation>
-    </message>
-    <message>
-        <source>100</source>
-        <translation>100</translation>
-    </message>
-    <message>
-        <source>10</source>
-        <translation>10</translation>
-    </message>
-    <message>
-        <source>1000</source>
-        <translation>1000</translation>
-    </message>
-    <message>
-        <source>50</source>
-        <translation>50</translation>
-    </message>
-    <message>
-        <source>500</source>
-        <translation>500</translation>
-    </message>
-    <message>
-        <source>5</source>
-        <translation>5</translation>
-    </message>
-    <message>
-        <source>1</source>
-        <translation>1</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>Alle anwählen</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>ABBRECHEN</translation>
-    </message>
-    <message>
-        <source>SAVE</source>
-        <translation>SICHERN</translation>
-    </message>
-</context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -1189,45 +1126,6 @@ Die staking Aktivität wird automatisch gestartet, sobald die Wallet genügend K
     <message>
         <source>Cannot create data directory here.</source>
         <translation>Datenverzeichnis kann hier nicht angelegt werden.</translation>
-    </message>
-</context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formular</translation>
-    </message>
-    <message>
-        <source>GOVERNANCE</source>
-        <translation>KONTROLLE</translation>
-    </message>
-    <message>
-        <source>Update Proposals</source>
-        <translation>Vorschläge aktualisieren</translation>
-    </message>
-    <message>
-        <source>Next super block:</source>
-        <translation>Nächster Superblock:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Blocks to next super block:</source>
-        <translation>Blöcke zum nächsten Superblock:</translation>
-    </message>
-    <message>
-        <source>Days to budget payout (estimate):</source>
-        <translation>Tage zur nächsten Auszahlung ( Schätzung):</translation>
-    </message>
-    <message>
-        <source>Budget left:</source>
-        <translation>Restliches Budget:</translation>
-    </message>
-    <message>
-        <source>Masternodes count:</source>
-        <translation>Anzahl Masternodes:</translation>
     </message>
 </context>
 <context>
@@ -1860,38 +1758,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Port mit &amp;UPnP mappen</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Aktivieren Sie die automatische Prägung von PIV-Einheiten zu zPIV</translation>
-    </message>
-    <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Aktivieren Sie zPIV Automint</translation>
-    </message>
-    <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>Automatisches zPIV Minting von spezifischen Adressen erlauben</translation>
-    </message>
-    <message>
-        <source>Enable Automint Addresses</source>
-        <translation>Automint Adressen aktivieren</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Anteil des eingehenden PIV, welcher automatisch zu zPIV via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Prozentsatz der automatisierten zPIV</translation>
-    </message>
-    <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend PIV für diese Stückelung verfügbar ist</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Bevorzugte automatisierte zPIV Stückelung </translation>
-    </message>
-    <message>
         <source>Stake split threshold:</source>
         <translation>Staff Split-Schwelle:</translation>
     </message>
@@ -2209,116 +2075,6 @@ Adresse: %4</translation>
     <message>
         <source>Ping Time</source>
         <translation>Latenz (Ping)</translation>
-    </message>
-</context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Formular</translation>
-    </message>
-    <message>
-        <source>Title</source>
-        <translation>Titel</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TextEtikett</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Druckknopf</translation>
-    </message>
-    <message>
-        <source>No active Master Node yet</source>
-        <translation>Keine aktiven Masternodes bis jetzt</translation>
-    </message>
-    <message>
-        <source>Privacy</source>
-        <translation>Privatsphäre</translation>
-    </message>
-    <message>
-        <source>Convert</source>
-        <translation>Umwandeln</translation>
-    </message>
-    <message>
-        <source>Mint</source>
-        <translation>Prägen</translation>
-    </message>
-    <message>
-        <source>No transactions yet</source>
-        <translation>Keine Transaktionen</translation>
-    </message>
-    <message>
-        <source>Mint zPIV</source>
-        <translation>zPIV prägen</translation>
-    </message>
-    <message>
-        <source>Enter amount of PIV to mint into zPIV</source>
-        <translation>Gebe eine Anzahl PIV ein, um sie in zPIV zu wechseln</translation>
-    </message>
-    <message>
-        <source>Convert back to PIV</source>
-        <translation>Konvertiere zPIV zurück zu PIV</translation>
-    </message>
-    <message>
-        <source>Zerocoin</source>
-        <translation>Zerocoin</translation>
-    </message>
-    <message>
-        <source>zPIV is currently undergoing maintenance</source>
-        <translation>zPIV wird momentan überarbeitet</translation>
-    </message>
-    <message>
-        <source>convert</source>
-        <translation>Umwandeln</translation>
-    </message>
-    <message>
-        <source>mint</source>
-        <translation>Prägen</translation>
-    </message>
-    <message>
-        <source>Invalid value</source>
-        <translation>Ungültiger Wert</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    <message>
-        <source>Open proposal page in browser</source>
-        <translation>Vorschläge-Seite im Browser</translation>
-    </message>
-    <message>
-        <source>Yes:</source>
-        <translation>Ja:</translation>
-    </message>
-    <message>
-        <source>No:</source>
-        <translation>Nein:</translation>
-    </message>
-    <message>
-        <source>Open link</source>
-        <translation>Öffentlicher Link</translation>
-    </message>
-    <message>
-        <source>Copy link</source>
-        <translation>Link kopieren</translation>
-    </message>
-    <message>
-        <source>Wallet Locked</source>
-        <translation>Wallet gesperrt</translation>
-    </message>
-    <message>
-        <source>You must unlock your wallet to vote.</source>
-        <translation>Um wählen zu können, muss dein Wallet entsperrt sein.</translation>
-    </message>
-    <message>
-        <source>Confirm Vote</source>
-        <translation>Bestätige deine Stimmabgabe</translation>
-    </message>
-    <message>
-        <source>Vote Results</source>
-        <translation>Abstimmresultate</translation>
     </message>
 </context>
 <context>
@@ -4533,41 +4289,6 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>standard</translation>
     </message>
 </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Wählen Sie die zPIV aus, die Sie ausgeben möchten</translation>
-    </message>
-    <message>
-        <source>Coin Control</source>
-        <translation>Coinverwaltung</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Druckknopf</translation>
-    </message>
-    <message>
-        <source>zPiv</source>
-        <translation>zPIV</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Anzahl:</translation>
-    </message>
-    <message>
-        <source>Is Spendable</source>
-        <translation>ist aufwendbar</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Select/Deselect All</source>
-        <translation>Alle Aus-/Abwählen</translation>
-    </message>
-    </context>
 <context>
     <name>pivx-core</name>
     <message>

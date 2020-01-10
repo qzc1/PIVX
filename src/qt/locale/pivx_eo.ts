@@ -615,13 +615,6 @@
     </message>
     </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Formo</translation>
-    </message>
-    </context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -706,17 +699,6 @@
         <translation>Ne povas krei datumoj dosierujo ĉi tie.</translation>
     </message>
 </context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formo</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1117,20 +1099,6 @@ Adreso: %4
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Formo</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>Tekstetikedo</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
     </context>
 <context>
     <name>QObject</name>
@@ -1815,25 +1783,6 @@ Adreso: %4
         <translation>defaŭlte</translation>
     </message>
 </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>Coin Control</source>
-        <translation>Mono kontrolo</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Kvanto</translation>
-    </message>
-    <message>
-        <source>Is Spendable</source>
-        <translation>Estas elspezebla</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
 <context>
     <name>pivx-core</name>
     <message>

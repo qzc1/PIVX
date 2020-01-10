@@ -976,45 +976,6 @@ Den vil starte automatisk så snart at pungen har nok bekræftelser på nogen af
     </message>
 </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Formular</translation>
-    </message>
-    <message>
-        <source>Transaction Details</source>
-        <translation>Transaktions Detaljer</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Tryk på Knappen</translation>
-    </message>
-    <message>
-        <source>500</source>
-        <translation>500</translation>
-    </message>
-    <message>
-        <source>5</source>
-        <translation>5</translation>
-    </message>
-    <message>
-        <source>1</source>
-        <translation>1</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>Vælg alle</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>Afslut</translation>
-    </message>
-    <message>
-        <source>SAVE</source>
-        <translation>Gem</translation>
-    </message>
-</context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -1099,17 +1060,6 @@ Den vil starte automatisk så snart at pungen har nok bekræftelser på nogen af
         <translation>Kan ikke oprette en mappe hr</translation>
     </message>
 </context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formular</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1503,30 +1453,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Aktivér automatisk mintning af PIV-enheder til zPIV</translation>
-    </message>
-    <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Aktivér zPIV Automint</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentdelen af indkommende PIV, som automatisk konverteres til zPIV via Zerocoin Protocol (min: 10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Procentdel af automatiseret zPIV</translation>
-    </message>
-    <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Vent med automatisk konvertering til Zerocoin, indtil nok PIV til denne betegnelse er tilgængelig</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Foretrukket Automint zPIV Denomination</translation>
-    </message>
-    <message>
         <source>Stake split threshold:</source>
         <translation>Indtastningsgrænse for indsats:</translation>
     </message>
@@ -1843,32 +1769,6 @@ Adresse: %4
         <translation>PingtidPingtid</translation>
     </message>
 </context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Formular</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>Tekstmærke</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Tryk på Knappen</translation>
-    </message>
-    <message>
-        <source>No active Master Node yet</source>
-        <translation>Ingen aktiv Master node endnu</translation>
-    </message>
-    <message>
-        <source>No transactions yet</source>
-        <translation>Ingen transaktioner endnu</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -3529,41 +3429,6 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>standard</translation>
     </message>
 </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Vælg zPIV for at bruge</translation>
-    </message>
-    <message>
-        <source>Coin Control</source>
-        <translation>Møntkontrol</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>Tryk på Knappen</translation>
-    </message>
-    <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Antal:</translation>
-    </message>
-    <message>
-        <source>Is Spendable</source>
-        <translation>Kan tilbringes</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Select/Deselect All</source>
-        <translation>Vælg / Fravælg alle</translation>
-    </message>
-    </context>
 <context>
     <name>pivx-core</name>
     <message>

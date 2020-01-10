@@ -865,65 +865,6 @@
     </message>
 </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Obrazac</translation>
-    </message>
-    <message>
-        <source>Transaction Details</source>
-        <translation>Detalji o transakciji</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>PritisniTipku</translation>
-    </message>
-    <message>
-        <source>5000</source>
-        <translation>5000</translation>
-    </message>
-    <message>
-        <source>100</source>
-        <translation>100</translation>
-    </message>
-    <message>
-        <source>10</source>
-        <translation>10</translation>
-    </message>
-    <message>
-        <source>1000</source>
-        <translation>1000</translation>
-    </message>
-    <message>
-        <source>50</source>
-        <translation>50</translation>
-    </message>
-    <message>
-        <source>500</source>
-        <translation>500</translation>
-    </message>
-    <message>
-        <source>5</source>
-        <translation>5</translation>
-    </message>
-    <message>
-        <source>1</source>
-        <translation>1</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>Označi sve</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>PONIŠTI</translation>
-    </message>
-    <message>
-        <source>SAVE</source>
-        <translation>SPREMI</translation>
-    </message>
-</context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -972,41 +913,6 @@
         <translation>ime</translation>
     </message>
     </context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Obrazac</translation>
-    </message>
-    <message>
-        <source>GOVERNANCE</source>
-        <translation>GLASOVANJE</translation>
-    </message>
-    <message>
-        <source>Next super block:</source>
-        <translation>Sljedeći super blok:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Days to budget payout (estimate):</source>
-        <translation>Preostalo dana do isplate (procjena):</translation>
-    </message>
-    <message>
-        <source>Allotted budget:</source>
-        <translation>Raspodijeljeno budžeta:</translation>
-    </message>
-    <message>
-        <source>Budget left:</source>
-        <translation>Preostalo budžeta:</translation>
-    </message>
-    <message>
-        <source>Masternodes count:</source>
-        <translation>Broj masternodeova:</translation>
-    </message>
-</context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1381,32 +1287,6 @@
         <source>Version</source>
         <translation>Inačica</translation>
     </message>
-    </context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Obrazac</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TekstualnaOznaka</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>PritisniTipku</translation>
-    </message>
-    <message>
-        <source>No active Master Node yet</source>
-        <translation>Još nema aktivnih Master Nodeova</translation>
-    </message>
-    <message>
-        <source>No transactions yet</source>
-        <translation>Još nema transakcija</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
     </context>
 <context>
     <name>QObject</name>
@@ -2557,25 +2437,6 @@
     <message>
         <source>Welcome</source>
         <translation>Dobrodošli</translation>
-    </message>
-    </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>PushButton</source>
-        <translation>PritisniTipku</translation>
-    </message>
-    <message>
-        <source>0.00 </source>
-        <translation>0.00</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Količina:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
     </message>
     </context>
 <context>

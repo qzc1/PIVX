@@ -1269,69 +1269,6 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
 </context>
 <context>
-    <name>DenomGenerationDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>来自</translation>
-    </message>
-    <message>
-        <source>Transaction Details</source>
-        <translation>交易明细</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>按钮</translation>
-    </message>
-    <message>
-        <source>This will unlock your wallet fully, so that anyone with access to it can spend until the wallet is closed or locked again.</source>
-        <translation>这会完全解锁你的钱包，直到钱包再次关闭或锁定，不然这样任何人都可以使用它，</translation>
-    </message>
-    <message>
-        <source>5000</source>
-        <translation>5000</translation>
-    </message>
-    <message>
-        <source>100</source>
-        <translation>100</translation>
-    </message>
-    <message>
-        <source>10</source>
-        <translation>10</translation>
-    </message>
-    <message>
-        <source>1000</source>
-        <translation>1000</translation>
-    </message>
-    <message>
-        <source>50</source>
-        <translation>50</translation>
-    </message>
-    <message>
-        <source>500</source>
-        <translation>500</translation>
-    </message>
-    <message>
-        <source>5</source>
-        <translation>5</translation>
-    </message>
-    <message>
-        <source>1</source>
-        <translation>1</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>选择所有</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>删除</translation>
-    </message>
-    <message>
-        <source>SAVE</source>
-        <translation>保存</translation>
-    </message>
-</context>
-<context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
@@ -1414,49 +1351,6 @@ It will start automatically as soon as the wallet has enough confirmations on an
     <message>
         <source>Cannot create data directory here.</source>
         <translation>无法在此创建数据目录。</translation>
-    </message>
-</context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>来自</translation>
-    </message>
-    <message>
-        <source>GOVERNANCE</source>
-        <translation>治理</translation>
-    </message>
-    <message>
-        <source>Update Proposals</source>
-        <translation>更新提议</translation>
-    </message>
-    <message>
-        <source>Next super block:</source>
-        <translation>下一个超级区块：</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Blocks to next super block:</source>
-        <translation>区块到下一个超级区块:</translation>
-    </message>
-    <message>
-        <source>Days to budget payout (estimate):</source>
-        <translation>预算需要天数(预估):</translation>
-    </message>
-    <message>
-        <source>Allotted budget:</source>
-        <translation>分配预算:</translation>
-    </message>
-    <message>
-        <source>Budget left:</source>
-        <translation>剩余预算：</translation>
-    </message>
-    <message>
-        <source>Masternodes count:</source>
-        <translation>主节点计数：</translation>
     </message>
 </context>
 <context>
@@ -2158,38 +2052,6 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>端口使用&amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>启动自动铸造PIV到zPIV</translation>
-    </message>
-    <message>
-        <source>Enable zPIV Automint</source>
-        <translation>启动自动铸造zPIV</translation>
-    </message>
-    <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>启用从特定地址自动生成zPIV</translation>
-    </message>
-    <message>
-        <source>Enable Automint Addresses</source>
-        <translation>启动自动铸造地址</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>通过零币协议自动转换为zPIV的传入PIV的百分比(最小:10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>自动铸造的zPIV百分比</translation>
-    </message>
-    <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>等待自动转换为零币，直到足够的PIV为这种面额可用</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>首选自动铸造zPIV面额</translation>
-    </message>
-    <message>
         <source>Stake split threshold:</source>
         <translation>股权分割阈值:</translation>
     </message>
@@ -2528,200 +2390,6 @@ Address: %4
     <message>
         <source>Ping Time</source>
         <translation>Ping时间</translation>
-    </message>
-</context>
-<context>
-    <name>PrivacyWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>来自</translation>
-    </message>
-    <message>
-        <source>Title</source>
-        <translation>抬头</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>文本标签</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>按钮</translation>
-    </message>
-    <message>
-        <source>No active Master Node yet</source>
-        <translation>暂无活跃主节点</translation>
-    </message>
-    <message>
-        <source>Privacy</source>
-        <translation>隐私</translation>
-    </message>
-    <message>
-        <source>Convert</source>
-        <translation>转换</translation>
-    </message>
-    <message>
-        <source>Mint</source>
-        <translation>铸造</translation>
-    </message>
-    <message>
-        <source>Minting zPIV anonymizes your PIV by removing any
-transaction history, making transactions untraceable </source>
-        <translation>铸造zPIV会通过删除任何
-交易历史匿名化您的PIV，使交易无法被跟踪</translation>
-    </message>
-    <message>
-        <source>Mint new zPIV or convert back to PIV</source>
-        <translation>铸造新的zPIV或转换回PIV</translation>
-    </message>
-    <message>
-        <source>Last Zerocoin Movements</source>
-        <translation>最后零币移动</translation>
-    </message>
-    <message>
-        <source>No transactions yet</source>
-        <translation>暂无交易</translation>
-    </message>
-    <message>
-        <source>Mint zPIV</source>
-        <translation>铸造zPIV</translation>
-    </message>
-    <message>
-        <source>Enter amount of PIV to mint into zPIV</source>
-        <translation>输入一定量的PIV铸造成zPIV</translation>
-    </message>
-    <message>
-        <source>Convert back to PIV</source>
-        <translation>转换回PIV</translation>
-    </message>
-    <message>
-        <source>Enter amount of zPIV to convert back into PIV</source>
-        <translation>输入一定量的zPIV转换回PIV</translation>
-    </message>
-    <message>
-        <source>Zerocoin</source>
-        <translation>零币</translation>
-    </message>
-    <message>
-        <source>zPIV is currently undergoing maintenance</source>
-        <translation>zPIV目前正在维护中</translation>
-    </message>
-    <message>
-        <source>You need to unlock the wallet to be able to %1 zPIV</source>
-        <translation>你需要解锁钱包才能%1 zPIV</translation>
-    </message>
-    <message>
-        <source>convert</source>
-        <translation>转换</translation>
-    </message>
-    <message>
-        <source>mint</source>
-        <translation>铸造</translation>
-    </message>
-    <message>
-        <source>Invalid value</source>
-        <translation>无效值</translation>
-    </message>
-    <message>
-        <source>zPIV minted successfully</source>
-        <translation>zPIV铸造成功</translation>
-    </message>
-    <message>
-        <source>zPIV converted back to PIV</source>
-        <translation>zPIV 转换回PIV</translation>
-    </message>
-    <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>您没有任何PIV可选择。</translation>
-    </message>
-    <message>
-        <source>Rescan Mints</source>
-        <translation>重新扫描铸造</translation>
-    </message>
-    <message>
-        <source>Your zerocoin mints are going to be scanned from the blockchain from scratch</source>
-        <translation>你的零币铸造将从零区块链被扫描</translation>
-    </message>
-    <message>
-        <source>Reset Spent Zerocoins</source>
-        <translation>重置花费零币</translation>
-    </message>
-    <message>
-        <source>Your zerocoin spends are going to be scanned from the blockchain from scratch</source>
-        <translation>你的零币花费铸造将从零区块链被扫描</translation>
-    </message>
-    <message>
-        <source>Total %1</source>
-        <translation>总额%1</translation>
-    </message>
-</context>
-<context>
-    <name>ProposalFrame</name>
-    <message>
-        <source>Open proposal page in browser</source>
-        <translation>在浏览器中打开建议页面</translation>
-    </message>
-    <message>
-        <source> remaining payment(s).</source>
-        <translation>剩余的付款</translation>
-    </message>
-    <message>
-        <source>Yes:</source>
-        <translation>是：</translation>
-    </message>
-    <message>
-        <source>Abstain:</source>
-        <translation>弃权:</translation>
-    </message>
-    <message>
-        <source>No:</source>
-        <translation>否：</translation>
-    </message>
-    <message>
-        <source>A proposal URL can be used for phishing, scams and computer viruses. Open this link only if you trust the following URL.
-</source>
-        <translation>提案URL可用于网络钓鱼、诈骗和计算机病毒。如果你信任以下URL，才打开这个链接
-</translation>
-    </message>
-    <message>
-        <source>Open link</source>
-        <translation>打开链接</translation>
-    </message>
-    <message>
-        <source>Copy link</source>
-        <translation>复制链接</translation>
-    </message>
-    <message>
-        <source>Wallet Locked</source>
-        <translation>钱包已锁住</translation>
-    </message>
-    <message>
-        <source>You must unlock your wallet to vote.</source>
-        <translation>你必须解锁钱包才能投票。</translation>
-    </message>
-    <message>
-        <source>Do you want to vote %1 on</source>
-        <translation>您是否要对%1进行投票</translation>
-    </message>
-    <message>
-        <source>using all your masternodes?</source>
-        <translation>用你所有主节点？</translation>
-    </message>
-    <message>
-        <source>Proposal Hash:</source>
-        <translation>提议哈希：</translation>
-    </message>
-    <message>
-        <source>Proposal URL:</source>
-        <translation>提议URL:</translation>
-    </message>
-    <message>
-        <source>Confirm Vote</source>
-        <translation>确认投票</translation>
-    </message>
-    <message>
-        <source>Vote Results</source>
-        <translation>投票结果</translation>
     </message>
 </context>
 <context>
@@ -3450,7 +3118,7 @@ transaction history, making transactions untraceable </source>
     </message>
     <message>
         <source>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</source>
-        <translation> 
+        <translation> 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</translation>
     </message>
     <message>
@@ -5442,14 +5110,6 @@ Are you sure?
         <translation>地址已复制</translation>
     </message>
     <message>
-        <source>Automint enabled</source>
-        <translation>自动挖矿可使用</translation>
-    </message>
-    <message>
-        <source>Automint disabled</source>
-        <translation>自动挖矿不可使用</translation>
-    </message>
-    <message>
         <source>Staking active</source>
         <translation>加注激活</translation>
     </message>
@@ -6114,49 +5774,6 @@ PIVX核心钱包</translation>
     <message>
         <source>default</source>
         <translation>默认</translation>
-    </message>
-</context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>Select zPIV to Spend</source>
-        <translation>选择zPIV 花费</translation>
-    </message>
-    <message>
-        <source>Coin Control</source>
-        <translation>币控制</translation>
-    </message>
-    <message>
-        <source>PushButton</source>
-        <translation>按钮</translation>
-    </message>
-    <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
-    </message>
-    <message>
-        <source>0.00 </source>
-        <translation>0.00</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>数量：</translation>
-    </message>
-    <message>
-        <source>Is Spendable</source>
-        <translation>可用</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Select/Deselect All</source>
-        <translation>选择／删除所有</translation>
-    </message>
-    <message>
-        <source>Select zPIV Denominations to Spend</source>
-        <translation>选择zPIV 面额花费</translation>
     </message>
 </context>
 <context>
